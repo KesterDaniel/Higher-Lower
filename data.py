@@ -14,8 +14,8 @@ data = [
   {
     "name": "Ariana Grande",
     "follower_count": 185,
-    "description": "Footballer",
-    "country": "Portugal"
+    "description": "Musician",
+    "country": "America"
   },
   {
     "name": "Dwayne Johnson",
