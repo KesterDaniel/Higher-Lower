@@ -31,6 +31,7 @@ while end == False:
   user_pick = input("Who has more followers?A or B: ").lower()
 
   if user_pick == "a" and celeb_A['follower_count'] > celeb_B['follower_count']:
+    celeb_A = celeb_B
     celeb_B = update(celeb_A, celeb_B)
     score += 1
     print(f"Your score is {score}")
